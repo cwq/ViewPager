@@ -5,5 +5,8 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="SHAREDPREFERENCES_NAME">first_pref</string>
+    <string name="pulldowm">下拉刷新</string>
+    <string name="pullup">释放刷新</string>
+    <string name="fresh">正在刷新</string>
 
 </resources>

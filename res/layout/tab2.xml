@@ -10,35 +10,48 @@
 	    android:orientation="horizontal" >
 	    
         <TextView
-            android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="13dp"
             android:layout_weight="1"
             android:gravity="left"
             android:textSize="20sp"
+            android:paddingTop="4sp"
+	        android:paddingBottom="4sp"
             android:text="产品名称" />
         
         <TextView
-            android:id="@+id/price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
             android:textSize="20sp"
+            android:paddingTop="4sp"
+	        android:paddingBottom="4sp"
             android:text="产品价格" />
         
         <TextView
-            android:id="@+id/address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="13dp"
             android:layout_weight="1"
             android:gravity="right"
             android:textSize="20sp"
+            android:paddingTop="4sp"
+	        android:paddingBottom="4sp"
             android:text="产品产地" />
     
     </LinearLayout>
+    
+    <TextView
+            android:id="@+id/pull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|bottom"
+            android:textSize="20sp"
+            android:paddingTop="4sp"
+	        android:paddingBottom="4sp"
+            android:text="@string/pulldowm" />
 
     <ListView
         android:id="@+id/homelist"

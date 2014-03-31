@@ -28,12 +28,12 @@ public final class R {
         public static final int welcome=0x7f020004;
     }
     public static final class id {
-        public static final int action_settings=0x7f080011;
-        public static final int address=0x7f08000e;
+        public static final int action_settings=0x7f080012;
+        public static final int address=0x7f08000d;
         public static final int guideviewpager=0x7f080002;
-        public static final int homelist=0x7f08000f;
+        public static final int homelist=0x7f080010;
         public static final int ll=0x7f080003;
-        public static final int name=0x7f08000c;
+        public static final int name=0x7f08000b;
         public static final int page0=0x7f080004;
         public static final int page1=0x7f080005;
         public static final int page2=0x7f080006;
@@ -41,9 +41,10 @@ public final class R {
         public static final int page4=0x7f080008;
         public static final int page5=0x7f080009;
         public static final int pagertab=0x7f080001;
-        public static final int price=0x7f08000d;
-        public static final int ratingBar1=0x7f080010;
-        public static final int setinglist=0x7f08000b;
+        public static final int price=0x7f08000c;
+        public static final int pull=0x7f08000f;
+        public static final int ratingBar1=0x7f080011;
+        public static final int setinglist=0x7f08000e;
         public static final int startBtn=0x7f08000a;
         public static final int viewpager=0x7f080000;
     }
@@ -56,10 +57,11 @@ public final class R {
         public static final int guide_view04=0x7f030005;
         public static final int guide_view05=0x7f030006;
         public static final int guide_view06=0x7f030007;
-        public static final int tab1=0x7f030008;
-        public static final int tab2=0x7f030009;
-        public static final int tab3=0x7f03000a;
-        public static final int welcome=0x7f03000b;
+        public static final int list_item=0x7f030008;
+        public static final int tab1=0x7f030009;
+        public static final int tab2=0x7f03000a;
+        public static final int tab3=0x7f03000b;
+        public static final int welcome=0x7f03000c;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -68,7 +70,10 @@ public final class R {
         public static final int SHAREDPREFERENCES_NAME=0x7f050003;
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int fresh=0x7f050006;
         public static final int hello_world=0x7f050002;
+        public static final int pulldowm=0x7f050004;
+        public static final int pullup=0x7f050005;
     }
     public static final class style {
         /** 
