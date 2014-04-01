@@ -76,7 +76,7 @@ public class HomeView {
 		FRESH_HEIGHT = context.getResources().getDimensionPixelOffset(R.dimen.FRESH_HEIGHT);
 		//初始化下拉刷新的TextView
 		pullView = (TextView) view.findViewById(R.id.pull);
-		pullView.setHeight(FRESH_HEIGHT);
+		pullView.setHeight(0);
 		
 		//初始化ListView
 		homeView = (ListView) view.findViewById(R.id.homelist);
@@ -155,6 +155,7 @@ public class HomeView {
 					break;
 				case MotionEvent.ACTION_MOVE:
 					if (isPullDown) {
+						homeView.setSelection(0);
 						//当前点距起始点的距离
 						float h = event.getY() + pullView.getHeight() - startY;
 						if (h > 0) {
