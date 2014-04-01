@@ -208,7 +208,6 @@ public class HomeView {
 						} else {
 							pullView.setHeight(0);
 						}
-						return true;
 					}
 					break;
 				default:
